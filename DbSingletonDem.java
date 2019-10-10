@@ -21,5 +21,7 @@ public class DbSingletonDem {
 	DbSingleton ob2 = DbSingleton.getInstance();
 	
 	System.out.println("ob1 = " + ob1 + " ob2 = " + ob2 + " are they same ?= "+ (ob1==ob2));
+		//ob1 = DbSingleton@7852e922 ob2 = DbSingleton@7852e922 are they same ?= true
+
 	}
 }
